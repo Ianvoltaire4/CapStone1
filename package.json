@@ -1,0 +1,18 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Voltaire",
+  "license": "ISC",
+  "devDependencies": {
+    "sequelize-cli": "^6.6.1",
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "sequelize": "^6.33.0"
+  }
+}
