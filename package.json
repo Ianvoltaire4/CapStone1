@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "Ian Voltaire",
   "license": "ISC",
@@ -13,7 +14,9 @@
     "vite": "^4.5.0"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "express": "^4.18.2",
+    "nodemon": "^3.0.1",
     "pg": "^8.11.3",
     "sequelize": "^6.33.0"
   }
