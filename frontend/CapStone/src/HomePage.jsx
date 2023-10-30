@@ -17,6 +17,7 @@ const HomePage = () => {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link to="">News</Nav.Link>
             <Nav.Link href="SignUp">Sign Up</Nav.Link>
+            <Nav.Link href="Login">Login</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="SignUpPage">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
