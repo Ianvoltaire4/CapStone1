@@ -1,3 +1,4 @@
+import ProfilePage from './Components /Profile'
 import React from 'react'
 import { useState, useContext, createContext } from 'react'
 import { Routes, Route } from 'react-router'
