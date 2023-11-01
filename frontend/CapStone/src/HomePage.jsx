@@ -3,6 +3,8 @@ import { Button, Form, Nav } from 'react-bootstrap'
 import { Navbar } from 'react-bootstrap'
 import { NavDropdown } from 'react-bootstrap'
 import {Container} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import ChatPage from './ChatPage'
 
 const HomePage = () => {
   return (
@@ -33,6 +35,10 @@ const HomePage = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+        </div>
+
+        <div>
+          <Link to='/ChatPage'>Chat</Link>
         </div>
     </>
   )
