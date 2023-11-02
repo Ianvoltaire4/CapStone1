@@ -43,13 +43,15 @@ const SignUpPage = () => {
 </div>
     <div id='sign-box'>
         <Form action='/signup' method='post'>
-          <input type='Text' id='FirstName' name='FName' placeholder='First Name'></input>
-          <input type='text' id='Last Name' name='LName' placeholder='Last Name'></input>
-          <input type='email' id='email' name='email' placeholder='Enter Email'></input>
-          <input type='text' id='username' name='UName' placeholder='Create Username'></input>
-          <input type='text' id='password' name='Pass' placeholder='Create Password'></input>
+          <input type='Text' id='FirstName' name='FName' maxLength="20" placeholder='First Name'></input><br></br>
+          <input type='text' id='Last Name' name='LName' maxLength="20" placeholder='Last Name'></input><br></br>
+          <input type='email' id='email' name='email'maxLength="30" placeholder='Enter Email'></input><br></br>
+          <input type='text' id='username' name='UName' maxLength="25" placeholder='Create Username'></input><br></br>
+          <input type='text' id='password' name='Pass' maxLength="25" placeholder='Create Password'></input><br></br>
+          <input type='text' id='password' name='Pass' maxLength="25" placeholder='Renter Password'></input><br></br>
+        <button className='subttn'>Create your Account</button>
         </Form>
-        <button className='subttn'>Submit</button>
+       <p>Already Have an Account?<a href="/LoginPage">Sign In</a></p>
   </div>
     <div className='split left'>
       <div className='centered'>

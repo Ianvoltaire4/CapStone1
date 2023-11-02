@@ -5,9 +5,9 @@ function App() {
 	return (
 		<ChatEngine
 			projectID='
-            ef3309bf-72da-4fee-9741-ea8b349687e5'
-			userName='Test1'
-			userSecret='test1'
+            532a0811-8caf-4275-a705-e9b43b5a456e'
+			userName='Ian'
+			userSecret='Ian1'
 		/>
 	);
 }
